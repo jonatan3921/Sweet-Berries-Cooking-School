@@ -13,11 +13,18 @@
     --font-family: 'Roboto Serif', Roboto;
 }
 
+/* There are 2 fonts in the Figma design. Your project is missing Roboto font. */
 body {
     background-color: var(--background-gray);
     font-family: 'Roboto Serif';
 }
 
+/* Great work on using CSS Grid and Flexbox together! */
+
+/*You haven't used Grid template areas in your project.
+It is a requirement in the rubric.
+
+ You can use the grid template areas for the main layout where you can define where each section should be located such as the navbar, banner, card-container, footer */
 .content {
     display: grid;
     grid-template-columns: 1fr;
@@ -56,6 +63,7 @@ body {
 }
 
 /* Banner Styling */
+/* Nice work on using Flexbox properly to create some of the components. */
 .banner {
     padding: 80px;
     display: flex;
@@ -82,6 +90,7 @@ body {
     color: var(--text-secondary);
 }
 
+/* You don’t need to set the height on images as it will cause it to stretch. */
 .banner img {
     width: 100%;
     height: 80%;
@@ -140,6 +149,7 @@ body {
     font-weight: 500;
 }
 
+/* Great work on using absolute and relative positioning for your card icons */
 .offer img {
     width: 25%;
     height: 25%;
@@ -162,7 +172,7 @@ body {
 }
 
 
-
+/* Great work on making your project responsive using media queries properly! */
 /* Media Query Tablet */
 @media screen and (max-width: 1000px) {
     .content {
@@ -206,7 +216,7 @@ body {
 }
 
 
-
+/* You haven’t implemented a functional hamburger menu. */
 /* Phone Media Query */
 @media screen and (max-width: 600px) {
     .content {
